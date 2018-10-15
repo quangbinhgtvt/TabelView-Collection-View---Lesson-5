@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func clickLogin(_ sender: Any) {
+       self.performSegue(withIdentifier: "countrysegue", sender: self)
+    }
+    
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670E816F217112360063CF0C /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670E816E217112360063CF0C /* CountryViewController.swift */; };
+		670E8171217113E30063CF0C /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670E8170217113E30063CF0C /* CountryTableViewCell.swift */; };
 		671C4B11216FADFF00769069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C4B10216FADFF00769069 /* AppDelegate.swift */; };
 		671C4B13216FADFF00769069 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C4B12216FADFF00769069 /* ViewController.swift */; };
 		671C4B16216FADFF00769069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671C4B14216FADFF00769069 /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		671C4B1B216FAE0000769069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671C4B19216FAE0000769069 /* LaunchScreen.storyboard */; };
 		671C4B26216FAE0000769069 /* TabelView__Collection_View___Lesson_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C4B25216FAE0000769069 /* TabelView__Collection_View___Lesson_5Tests.swift */; };
 		671C4B31216FAE0000769069 /* TabelView__Collection_View___Lesson_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C4B30216FAE0000769069 /* TabelView__Collection_View___Lesson_5UITests.swift */; };
+		671CF6292174D15D001F2FA7 /* DetailCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671CF6282174D15D001F2FA7 /* DetailCategoryViewController.swift */; };
+		671CF62B2174E147001F2FA7 /* DetailCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671CF62A2174E147001F2FA7 /* DetailCategoryTableViewCell.swift */; };
+		671CF62D2174E996001F2FA7 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671CF62C2174E996001F2FA7 /* DescriptionViewController.swift */; };
+		671CF62F21750434001F2FA7 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671CF62E21750434001F2FA7 /* Country.swift */; };
+		671CF63121750447001F2FA7 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671CF63021750447001F2FA7 /* City.swift */; };
+		67FF455221738B58006E2450 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF455121738B58006E2450 /* CategoryViewController.swift */; };
+		67FF45542173A5D2006E2450 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF45532173A5D2006E2450 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		670E816E217112360063CF0C /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		670E8170217113E30063CF0C /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		671C4B0D216FADFF00769069 /* TabelView, Collection View - Lesson 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabelView, Collection View - Lesson 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		671C4B10216FADFF00769069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		671C4B12216FADFF00769069 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		671C4B2C216FAE0000769069 /* TabelView, Collection View - Lesson 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabelView, Collection View - Lesson 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		671C4B30216FAE0000769069 /* TabelView__Collection_View___Lesson_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabelView__Collection_View___Lesson_5UITests.swift"; sourceTree = "<group>"; };
 		671C4B32216FAE0000769069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671CF6282174D15D001F2FA7 /* DetailCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCategoryViewController.swift; sourceTree = "<group>"; };
+		671CF62A2174E147001F2FA7 /* DetailCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		671CF62C2174E996001F2FA7 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		671CF62E21750434001F2FA7 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		671CF63021750447001F2FA7 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		67FF455121738B58006E2450 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		67FF45532173A5D2006E2450 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,15 @@
 				671C4B17216FAE0000769069 /* Assets.xcassets */,
 				671C4B19216FAE0000769069 /* LaunchScreen.storyboard */,
 				671C4B1C216FAE0000769069 /* Info.plist */,
+				670E816E217112360063CF0C /* CountryViewController.swift */,
+				670E8170217113E30063CF0C /* CountryTableViewCell.swift */,
+				67FF455121738B58006E2450 /* CategoryViewController.swift */,
+				67FF45532173A5D2006E2450 /* MyCollectionViewCell.swift */,
+				671CF6282174D15D001F2FA7 /* DetailCategoryViewController.swift */,
+				671CF62A2174E147001F2FA7 /* DetailCategoryTableViewCell.swift */,
+				671CF62C2174E996001F2FA7 /* DescriptionViewController.swift */,
+				671CF62E21750434001F2FA7 /* Country.swift */,
+				671CF63021750447001F2FA7 /* City.swift */,
 			);
 			path = "TabelView, Collection View - Lesson 5";
 			sourceTree = "<group>";
@@ -256,7 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671CF62B2174E147001F2FA7 /* DetailCategoryTableViewCell.swift in Sources */,
+				67FF455221738B58006E2450 /* CategoryViewController.swift in Sources */,
+				671CF6292174D15D001F2FA7 /* DetailCategoryViewController.swift in Sources */,
+				670E8171217113E30063CF0C /* CountryTableViewCell.swift in Sources */,
+				67FF45542173A5D2006E2450 /* MyCollectionViewCell.swift in Sources */,
+				670E816F217112360063CF0C /* CountryViewController.swift in Sources */,
+				671CF62D2174E996001F2FA7 /* DescriptionViewController.swift in Sources */,
+				671CF63121750447001F2FA7 /* City.swift in Sources */,
 				671C4B13216FADFF00769069 /* ViewController.swift in Sources */,
+				671CF62F21750434001F2FA7 /* Country.swift in Sources */,
 				671C4B11216FADFF00769069 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
