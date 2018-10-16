@@ -21,7 +21,7 @@ class DescriptionViewController: UIViewController {
         self.navigationItem.hidesBackButton = true
         imageDetail.image = UIImage(named: imageName!)
         print(imageName)
-
+        
     }
     
     @IBAction func backtoCategoryView(_ sender: Any) {

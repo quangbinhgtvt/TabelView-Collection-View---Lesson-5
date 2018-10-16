@@ -29,7 +29,7 @@ class CategoryViewController: UIViewController, UICollectionViewDelegate, UIColl
         let backButton = UIBarButtonItem()
         backButton.title = "Category"
         navigationItem.backBarButtonItem = backButton
-        
+   
         // set right bar button
         let rightButton = UIBarButtonItem.init(image: UIImage(named: "Group 4"), style: .done, target: self, action: nil)
         self.navigationItem.rightBarButtonItem = rightButton
